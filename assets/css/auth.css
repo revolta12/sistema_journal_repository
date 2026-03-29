@@ -1,0 +1,203 @@
+/* Flag stripe Timor-Leste */
+.flag-stripe {
+    height: 4px;
+    background: linear-gradient(90deg, #ff0000 0%, #ff0000 33%, #ffcc00 33%, #ffcc00 66%, #000000 66%, #000000 100%);
+}
+
+/* Navbar Styling */
+.navbar {
+    background: #1a2c3e;
+    padding: 0.8rem 0;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0;
+}
+
+.brand-icon {
+    width: 40px;
+    height: 40px;
+    background: #ffcc00;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1a2c3e;
+    font-size: 1.4rem;
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    line-height: 1.2;
+}
+
+.brand-sub {
+    font-size: 0.7rem;
+    color: #ffcc00;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    color: rgba(255,255,255,0.8) !important;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffcc00 !important;
+    transform: translateY(-2px);
+}
+
+.nav-divider {
+    width: 1px;
+    height: 30px;
+    background: rgba(255,255,255,0.2);
+    margin: 0 10px;
+}
+
+/* User Button */
+.user-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 6px 12px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.user-btn:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+.user-avatar {
+    width: 36px;
+    height: 36px;
+    background: #ffcc00;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1a2c3e;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: white;
+}
+
+.user-role-label {
+    font-size: 0.7rem;
+    color: #ffcc00;
+    background: rgba(255,204,0,0.2);
+    padding: 2px 8px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 2px;
+}
+
+/* Buttons */
+.btn-login, .btn-register {
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-login {
+    background: transparent;
+    border: 1px solid #ffcc00;
+    color: #ffcc00;
+}
+
+.btn-login:hover {
+    background: #ffcc00;
+    color: #1a2c3e;
+    transform: translateY(-2px);
+}
+
+.btn-register {
+    background: #ffcc00;
+    color: #1a2c3e;
+}
+
+.btn-register:hover {
+    background: #ffdd44;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255,204,0,0.3);
+}
+
+/* Dropdown */
+.dropdown-menu {
+    background: white;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    margin-top: 12px;
+}
+
+.dropdown-item {
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background: #f8f9fa;
+    padding-left: 25px;
+}
+
+.dropdown-item.logout {
+    color: #dc3545;
+}
+
+.dropdown-item.logout:hover {
+    background: #dc3545;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .navbar-nav {
+        margin-top: 1rem;
+    }
+    
+    .nav-divider {
+        display: none;
+    }
+    
+    .user-btn {
+        margin: 10px 0;
+    }
+    
+    .btn-login, .btn-register {
+        width: 100%;
+        justify-content: center;
+        margin: 5px 0;
+    }
+}

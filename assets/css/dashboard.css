@@ -1,0 +1,59 @@
+/* Custom Styles ba Dashboard Autór */
+body {
+    background-color: #f8f9fa;
+}
+
+.stat-card-custom {
+    transition: transform 0.3s ease;
+    border-radius: 16px;
+}
+
+.stat-card-custom:hover {
+    transform: translateY(-5px);
+}
+
+.stat-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+/* Background soft colors ba badge no icon */
+.bg-light-primary { background-color: rgba(13, 110, 253, 0.1); }
+.bg-light-success { background-color: rgba(25, 135, 84, 0.1); }
+.bg-soft-info { background-color: #e0f7fa; color: #00bcd4; }
+.bg-soft-success { background-color: #e8f5e9; color: #4caf50; }
+
+/* Table styling */
+.table thead th {
+    font-weight: 600;
+    border: none;
+    letter-spacing: 0.5px;
+}
+
+.btn-white {
+    background: #fff;
+    border: 1px solid #eee;
+}
+
+.btn-white:hover {
+    background: #f8f9fa;
+}
+
+.rounded-4 {
+    border-radius: 1rem !important;
+}
+
+/* Accent mean Timor */
+.text-danger {
+    color: #DC1F2E !important;
+}
+
+.btn-danger {
+    background-color: #DC1F2E;
+    border-color: #DC1F2E;
+}
